@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* banner section start */
+#banner{
+  background-image: url('../img/banner/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+#banner::after{
+  content: '';
+  position: absolute;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+/* banner section end */
