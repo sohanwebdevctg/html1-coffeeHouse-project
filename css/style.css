@@ -6,9 +6,12 @@
   box-sizing: border-box;
 }
 
+/* smooth behavior in html start */
 html{
   scroll-behavior: smooth;
 }
+
+/* smooth behavior in html end */
 
 /* banner section start */
 #banner{
@@ -79,3 +82,26 @@ html{
   -o-transform: translate(-50%, -50%);
 }
 /* contact section end */
+
+/* bestSelling section start */
+.imgRotated{
+  animation: imageRotate 8s linear infinite;
+  -webkit-animation: imageRotate 8s linear infinite;
+}
+@keyframes imageRotate{
+  0%{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+  100%{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
+/* bestSelling section end */
