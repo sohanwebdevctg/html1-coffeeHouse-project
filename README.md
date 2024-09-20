@@ -11,5 +11,5 @@
   * ### css animation
   * ### box icons
 
-* ### -> This project is hosted live on Netlify :()
-* ### -> The source code for this project will be kept in Git hub :-()
+* ### -> This project is hosted live on Netlify :(https://magical-dusk-e9db7d.netlify.app)
+* ### -> The source code for this project will be kept in Git hub :-(https://github.com/sohanwebdevctg/html1-coffeeHouse-project)
