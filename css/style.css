@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* banner section start */
 #banner{
   background-image: url('../img/banner/banner.jpg');
@@ -26,6 +30,35 @@
   left: 0;
   z-index: -1;
   opacity: 0.8;
+}
+
+.imageJump{
+  animation: imgAnimation 3s infinite ease;
+  -webkit-animation: imgAnimation 3s infinite ease;
+}
+
+@keyframes imgAnimation{
+  0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+50%{
+  transform: translateY(-30px);
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+}
+100%{
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
 }
 
 /* banner section end */
