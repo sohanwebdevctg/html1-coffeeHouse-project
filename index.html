@@ -21,11 +21,11 @@
     <!-- header section start -->
      <header>
       <!-- nav section start -->
-       <nav class="bg-[#714024] sm:fixed top-0 w-full left-0 right-0 z-50">
+      <nav class="bg-[#714024] sm:fixed top-0 w-full left-0 right-0 z-50">
         <!-- desktop section start -->
          <div class="">
           <div class="container mx-auto px-5 sm:px-3 md:px-4 lg:px-5">
-            <div class="flex flex-col gap-2 items-center justify-center sm:flex-row sm:justify-between sm:items-center mx-auto h-24 sm:h-20 md:h-24">
+            <div class="flex flex-col gap-2 items-center justify-center sm:flex-row sm:justify-between sm:items-center mx-auto h-24 sm:h-20">
               <!-- logo section start -->
               <ul class="flex justify-between items-center w-full">
                 <li>
@@ -34,23 +34,30 @@
                     <span class="text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl italic font-bold">CoffeeHouse</span>
                   </div>
                 </li>
-                <li class="block sm:hidden"><i class='text-xl bx bxs-cart-download text-white'></i></li>
+                <li class="block sm:hidden"><div class="indicator">
+                  <i class='text-xl bx bxs-cart-download text-slate-200'></i>
+                  <span class="badge badge-xs indicator-item">8</span>
+                </div></li>
               </ul>
               <!-- logo section end -->
               <!-- navigation section start -->
               <ul class="flex items-center gap-3 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 w-full justify-around sm:justify-end">
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl active:text-yellow-700 visited:text-slate-200" href="index.html">Home</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl active:text-yellow-400 visited:text-slate-200" href="#">About</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl active:text-yellow-400 visited:text-slate-200" href="#product">Product</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl active:text-yellow-400 visited:text-slate-200" href="#service">Service</a></li>
-                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl active:text-yellow-400 visited:text-slate-200" href="#">Contact</a></li>
-                <li class="hidden sm:block"><i class='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-xl xl:text-2xl 2xl:text-2xl bx bxs-cart-download text-slate-200'></i></li>
+                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl visited:text-slate-200" href="index.html">Home</a></li>
+                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl visited:text-slate-200" href="#aboutUs">About</a></li>
+                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl visited:text-slate-200" href="#product">Product</a></li>
+                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl visited:text-slate-200" href="#service">Service</a></li>
+                <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl visited:text-slate-200" href="#contact">Contact</a></li>
+                <li class="hidden sm:block">
+                  <div class="indicator">
+                    <i class='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-xl xl:text-2xl 2xl:text-2xl bx bxs-cart-download text-slate-200'></i>
+                    <span class="badge badge-xs indicator-item">8</span>
+                  </div>
+                </li>
               </ul>
               <!-- navigation section end -->
             </div>
           </div>
          </div>
-        
         <!-- desktop section end -->
        </nav>
       <!-- nav section end -->
@@ -220,8 +227,16 @@
         <div class="flex flex-col sm:flex-row justify-between items-center gap-2 md:gap-3 xl:gap-5">
           <!-- content section start -->
            <!-- left item start -->
-           <div class="flex-1 w-full h-full">
+           <div class="flex-1 w-full h-full relative">
             <img src="/img/service/img1.jpg" class="w-full h-44 sm:h-60 md:h-60 lg:h-72 xl:h-96 border-8 border-[#714024]">
+            <div class="absolute bg-black bg-opacity-60 top-5 right-5 left-5 bottom-5 flex items-end p-2 xl:p-3">
+              <ul>
+                <li><h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-slate-200 pb-0 lg:pb-1">Service</h2></li>
+                <li>
+                  <p class="text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-2xl text-gray-300">Have you ever seen an ad and thought that perhaps the marketing team behind that ad was spying on you? They seemed to know your habits perfectly well</p>
+                </li>
+              </ul>
+            </div>
            </div>
            <!-- left item end -->
            <!-- right item start -->
