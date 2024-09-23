@@ -37,29 +37,32 @@
                   <a href="index.html">
                     <div class="flex items-center text-white">
                       <i class='bx bxs-coffee text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl'></i>
-                      <span class="text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl italic font-bold">CoffeeHouse</span>
+                      <span class="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-2xl xl:text-3xl xl:text-2xl 2xl:text-3xl italic font-bold">CoffeeHouse</span>
                     </div>
                   </a>
                 </li>
-                <li class="block sm:hidden"><div class="indicator">
-                  <i class='text-xl bx bxs-cart-download text-slate-200'></i>
-                  <span class="badge badge-xs indicator-item">8</span>
-                </div></li>
+                <li>
+                  <details class="dropdown block sm:hidden z-20">
+                    <summary class="btn btn-sm bg-black hover:bg-black border-none bg-opacity-50"><i class='bx bx-menu text-xl text-white'></i></summary>
+                    <ul class="menu dropdown-content bg-black bg-opacity-90 rounded-box z-[1] w-52 p-2 shadow right-0">
+                      <li><a class="text-xs text-slate-200" href="index.html">Home</a></li>
+                <li><a class="text-xs text-slate-200" href="#aboutUs">About</a></li>
+                <li><a class="text-xs text-slate-200" href="#product">Product</a></li>
+                <li><a class="text-xs text-slate-200" href="#service">Service</a></li>
+                <li><a class="text-xs text-slate-200" href="#contact">Contact</a></li>
+                    </ul>
+                  </details>
+
+                </li>
               </ul>
               <!-- logo section end -->
               <!-- navigation section start -->
-              <ul class="flex items-center gap-3 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 w-full justify-around sm:justify-end">
+              <ul class="hidden sm:flex items-center gap-3 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 w-full justify-around sm:justify-end">
                 <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="index.html">Home</a></li>
                 <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#aboutUs">About</a></li>
                 <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#product">Product</a></li>
                 <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#service">Service</a></li>
                 <li><a class="text-xs sm:text-xs md:text-sm lg:text-base xl:text-base 2xl:text-xl text-slate-200" href="#contact">Contact</a></li>
-                <li class="hidden sm:block">
-                  <div class="indicator">
-                    <i class='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl lg:text-xl xl:text-2xl 2xl:text-2xl bx bxs-cart-download text-slate-200'></i>
-                    <span class="badge badge-xs indicator-item">8</span>
-                  </div>
-                </li>
               </ul>
               <!-- navigation section end -->
             </div>
